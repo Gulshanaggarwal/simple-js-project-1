@@ -1,0 +1,61 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: orange;
+}
+div{
+	background-color: white;
+	width: 80%;
+	height: 70vh;
+	position:absolute;
+	top: 15%;
+	margin-left: 10%;
+}
+div .content{
+	text-align: center;
+	padding-top: 4%;
+	font-size: 130%;
+}
+div #input{
+	width: 80%;
+	height: 12vh;
+	outline: none;
+	border: 2px solid orange;
+	display: block;
+	margin-top: 3%;
+	margin-left: 10%;
+	padding-left: 2%;
+}
+div button{
+	display: block;
+	color: white;
+	font-weight: bold;
+	background-color: Orange;
+	border: none;
+	width: 18%;
+	height: 7vh;
+	margin-left: 40%;
+	margin-top: 3%;
+	border-radius: 5px;
+	font-size: 110%;
+	text-align: center;
+	box-sizing: border-box;
+}
+div button:hover{
+	border: 2.5px solid orange;
+}
+div h4{
+	margin-top: 2%;
+	text-align: center;
+	font-size: 130%;
+}
+div #message{
+	color: orange;
+	text-align: center;
+	margin-top: 3%;
+	color: green;
+	font-size: 150%;
+}
